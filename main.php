@@ -35,4 +35,11 @@ class MotorblockDB
         $rpy = $cnt2;
         return $rpy;
     }
+    public function tambahanWorkorder($line, $data)
+    {
+        $rpy = "1;OK";
+        $cnt2 = "7;OK";
+        $rpy = $cnt2;
+        return $rpy;
+    }
 }
