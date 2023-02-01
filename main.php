@@ -21,4 +21,11 @@ class MotorblockDB
         $rpy = $cnt2;
         return $rpy;
     }
+    public function newBUGWorkorder($line, $data)
+    {
+        $rpy = "1;OK bug solve";
+        $cnt2 = "3;OK";
+        $rpy = $cnt2;
+        return $rpy;
+    }
 }
