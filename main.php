@@ -14,4 +14,11 @@ class MotorblockDB
         $rpy = $cnt2;
         return $rpy;
     }
+    public function OKayWorkorder($line, $data)
+    {
+        $rpy = "1;OK";
+        $cnt2 = "3;OK";
+        $rpy = $cnt2;
+        return $rpy;
+    }
 }
